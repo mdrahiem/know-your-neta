@@ -1,0 +1,19 @@
+{
+  "name": "know-your-neta",
+  "version": "1.0.0",
+  "description": "It's a opensource web API for Meghnad's show",
+  "main": "app.js",
+  "scripts": {
+    "start": "nodemon server.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "mdrahiem",
+  "license": "MIT",
+  "devDependencies": {
+    "nodemon": "^2.0.14"
+  },
+  "dependencies": {
+    "express": "^4.17.1",
+    "mongoose": "^6.0.12"
+  }
+}
