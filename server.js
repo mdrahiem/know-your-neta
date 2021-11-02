@@ -1,8 +1,9 @@
 const express = require('express');
 const app = express();
-const port = process.env.PORT || 3000;
+const port = process.env.PORT || 3030;
 
 const mongoose = require('mongoose');
+const mongooseURL = process.env.mongoURI;
 
 const connectionParams = {
     useNewUrlParser: true,
