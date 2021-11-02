@@ -1,6 +1,11 @@
 const express = require('express');
 const app = express();
 const port = process.env.PORT || 3000;
+if (process.env.NODE_ENV !== 'production') {
+    require('dotenv').config();
+}
+
+console.log('------------------------No value for FOO yet:', process.env.PORT);
 
 const mongoose = require('mongoose');
 const mongooseURL = process.env.mongoURI;
