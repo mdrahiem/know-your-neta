@@ -5,8 +5,6 @@ if (process.env.NODE_ENV !== 'production') {
     require('dotenv').config();
 }
 
-console.log('------------------------No value for FOO yet:', process.env.PORT);
-
 const mongoose = require('mongoose');
 const mongooseURL = process.env.mongoURI;
 
