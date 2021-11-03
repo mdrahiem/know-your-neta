@@ -26,14 +26,14 @@ exports.read_a_neta = function(req, res) {
 };
 
 exports.update_a_neta = function(req, res) {
-    Neta.findOneAndUpdate({_id: req.params.taskId}, req.body, {new: true}, function(err, neta) {
+    Neta.findOneAndUpdate({_id: req.params.netaId}, req.body, {new: true}, function(err, neta) {
         if (err) res.send(err);
         res.json(neta);
     });
 };
 
 exports.delete_a_neta = function(req, res) {
-    Neta.remove({_id: req.params.taskId}, function(err, neta) {
+    Neta.remove({_id: req.params.netaId}, function(err, neta) {
         if (err) res.send(err);
         res.json({ message: 'Neta successfully deleted!'});
     });
