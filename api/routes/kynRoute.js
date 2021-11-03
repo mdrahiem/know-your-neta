@@ -9,7 +9,7 @@ module.exports = function(app) {
         .post(netasController.create_a_neta);
 
     app.route('/netas/:netaId')
-        .get(netasController.read_a_neta)
-        .put(netasController.update_a_neta)
-        .delete(netasController.delete_a_neta);
+        .get(netasController.read_a_neta);
+        // .put(netasController.update_a_neta)
+        // .delete(netasController.delete_a_neta);
 };
