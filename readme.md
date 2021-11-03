@@ -1,1 +1,1 @@
-### This is a web API for "Know Your Neta" from Meghnad's youtube series "Sansad Watch". It's just for fun and may be to provide some information about our netas in a hatke way. It's open source and anyone can use/contribute.
+### This is a web API for "Know Your Neta" from Meghnad's youtube series "Sansad Watch" by [Newslaundry](https://www.newslaundry.com/). It's just for fun and may be to provide some information about our netas in a hatke way. It's open source and anyone can use/contribute.
